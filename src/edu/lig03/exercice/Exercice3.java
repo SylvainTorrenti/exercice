@@ -9,7 +9,7 @@ public class Exercice3 {
 		int nb1;
 		int nbGrand = 0;
 		for (int i = 0; i < 10; i++) {
-			System.out.println("Entré un nombre");
+			System.out.println("Entrer un nombre");
 			nb1 = in.nextInt();
 			if (nb1 > nbGrand) {
 				nbGrand = nb1;
