@@ -88,11 +88,11 @@ public class Exercice {
 	}
 
 	public static void main(String[] args) {
-//		 exercice1();
+		 exercice1();
 //		 exercice2();
 //		 exercice3();
 //		 exercice4();
-		exercice5();
+//		exercice5();
 	}
 
 }
