@@ -195,7 +195,7 @@ public class Exercice {
 
 		}
 	}
-
+	
 	public static void exercice8() {
 		// Demande de saisie de la chaîne de caractères
 		String phrase = Lecteur.lireTexte("Entrez une phrase à tester pour le palindrome: ");
@@ -270,6 +270,7 @@ public class Exercice {
 			//Condition de défaite
 			if (erreurs >= 6) {
 				System.out.println("Vous avez perdu!");
+				System.out.println(mot);
 				break;
 			}
 			//Utilise la fonction enregsitreProposition
@@ -306,7 +307,7 @@ public class Exercice {
 		if (erreurs >= 5) {
 			System.out.print("/ ");
 			if (erreurs >= 6) {
-				System.out.println("\\");
+				System.out.println("\\");				
 			} else {
 				System.out.println();
 			}
@@ -341,9 +342,9 @@ public class Exercice {
 //		 exercice4();
 //		exercice5();
 //		exercice6();
-//		exercice7();
+		exercice7();
 //		exercice8();
-		exercice9();
+//		exercice9();
 	}
 
 }
