@@ -1,8 +1,11 @@
 package edu.lig03.exercice;
 
 import java.io.BufferedReader;
+<<<<<<< Updated upstream
 import java.io.File;
 import java.io.FileNotFoundException;
+=======
+>>>>>>> Stashed changes
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.Normalizer;
@@ -238,7 +241,11 @@ public class Exercice {
 		/*
 		 * Chemin du fichier Doit bien faire refernce à l'emplacement du fichier
 		 */
+<<<<<<< Updated upstream
 		String cheminFichier = "C:\\Users\\torrs\\Documents\\GitHub\\exercice\\src\\edu\\lig03\\exercice\\liste_mot_francais.txt";
+=======
+		String cheminFichier = "C:\\Users\\torrs\\eclipse-workspace\\exercice\\src\\edu\\lig03\\exercice\\listMot.txt";
+>>>>>>> Stashed changes
 		// Création d'une liste pour stocker les mots présent dans le fichier
 		List<String> mots = new ArrayList<>();
 		// Test pour verifier la presence du fichier au chemin specifier
@@ -342,9 +349,15 @@ public class Exercice {
 //		 exercice4();
 //		exercice5();
 //		exercice6();
+<<<<<<< Updated upstream
 		exercice7();
 //		exercice8();
 //		exercice9();
+=======
+//		exercice7();
+//		exercice8();
+		exercice9();
+>>>>>>> Stashed changes
 	}
 
 }
